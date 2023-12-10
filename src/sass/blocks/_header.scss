@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+        width: 251px;
+        img{
+            width: 100%;
+        }
+    }
+
+    &__official{
+        color: $base_color_white;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 12px;
+
+        span{
+            display: block;
+            color: $base_color_white;
+            font-size: 18px;
+            padding-top: 7px;
+        }
+    }
+
+    &__contact{
+        text-align: end;
+
+        a{
+            display: block;
+            color: $base_color_white;
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        .button{
+            text-align: center;
+            font-size: 12px;
+            width: 153px;
+            height: 32px;
+        }
+    }
+}

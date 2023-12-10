@@ -1,0 +1,23 @@
+.slider{
+    margin:0 auto;
+    width: 750px;
+    position: relative;
+
+    &__prev, &__next{
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(-50%);
+        left: -70px;
+        background: white;
+        border: none;
+
+        img{
+            width: 31px;
+            height: 50px;
+        }
+    }
+    &__next{
+        left: auto;
+        right:-70px;
+    }
+}

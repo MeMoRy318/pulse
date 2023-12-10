@@ -1,0 +1,22 @@
+
+*{
+    font-family: 'Museo Sans Cyrl';
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none
+}
+
+.container{
+    max-width: 950px;
+    margin: 0 auto;
+}

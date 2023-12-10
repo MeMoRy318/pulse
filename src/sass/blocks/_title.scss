@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+    color: $base_color_black;
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+
+    &_consultation{
+        color: $base_color_white;
+        font-size: 36px;
+        text-align: left;
+    }
+
+    &_catalog{
+        font-weight: 400;
+        margin-bottom: 46px;
+    }
+
+    &_reviews{
+        margin-bottom: 60px;
+    }
+
+  
+    }
